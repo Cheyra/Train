@@ -13,21 +13,27 @@
     <!--link to jquery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <!--link to javascript-->
-    <script src=app.js></script>
+    <script src=assets/javascript/app.js></script>
     <!--link to moment-->
     <script src="https://cdn.jsdelivr.net/momentjs/2.13.0/moment.min.js"></script>
     <!--link to google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Audiowide|Kumar+One+Outline|Orbitron" rel="stylesheet">
-    <link rel="stylesheet" href="app.css"></link>
+    <link rel="stylesheet" href="assets/css/style.css"></link>
 </head>
 
 <body>
-    <h2 class="jumbotron bg-success text-center" style="color: lightcyan">Adventure Train Time</h2>
+    <h2 class="jumbotron dark text-center" style="color: lightcyan">Adventure Train Time</h2>
+
 
     <div class="container">
-
-        <div class="card bg-dark" style = "color: lightcyan">
-            <div class="card-header bg-success">Current Train Schedule</div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="fun-color time-block"> Current Time: <span class="time"> </span> </div>
+            </div>
+        </div>
+<br> <br>
+        <div class="card dark" style = "color: lightcyan">
+            <div class="card-header fun-color">Current Train Schedule</div>
             <div class="card-body">
                 <table class="table">
                     <thead>
@@ -44,14 +50,15 @@
 
                     </tbody>
                 </table>
+                <div class="train-alert"></div>
 
             </div>
         </div>
 
         <br>
 
-        <div class="card bg-dark" style = "color: lightcyan">
-            <div class="card-header bg-success">Add Train</div>
+        <div class="card dark" style = "color: lightcyan">
+            <div class="card-header fun-color">Add Train</div>
             <div class="card-body">
                 <form role="form">
                     <div class="form-group">
@@ -78,10 +85,11 @@
                         <input type="number" class="form-control" id="frequency" placeholder="10000">
                     </div>
 
-                    <button class="btn btn-success" style = "color: lightcyan" id="submit">Submit</button>
+                    <button class="btn fun-color" style = "color: lightcyan" id="submit">Submit</button>
                 </form>
                 <br>
                 <br>
+               
 
             </div>
         </div>

@@ -2,4 +2,31 @@
      /* font-family: 'Kumar One Outline', cursive; */
     font-family: 'Orbitron', sans-serif; 
     /* font-family: 'Audiowide', cursive;  */
+    background-image: url(../skulls/skulls.png);
+}
+/* .jumbotron{ opacity:.5} */
+.fun-color {
+    background-color: rgb(135, 212, 222);
+    
+   
+}
+.dark{background-color:rgb(47, 79, 79, .7)}
+.time-block{width:270px; color:lightcyan;
+font-size: 23px;
+border:2px;
+border-style: inset;
+border-color: lightcyan}
+.time{color:limegreen}
+#submit{border-radius: 50%}
+
+.urgent {
+    font-size: 20px;
+    animation:blink 1s infinite
+}
+@keyframes blink {
+    0%{ color: lightcyan;}
+    25%{ color: rgb(187, 233, 233);}
+    50%{ color: transparent;}
+    75%{ color: lightcyan;}
+    100%{ color: rgb(187, 233, 233);}
 }
