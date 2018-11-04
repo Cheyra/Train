@@ -2,7 +2,7 @@ $(document).ready(function () {
 
    
     ///////////////////////////////////////////////////////////////////
-//firbase access 
+//firebase access 
     var config = {
         apiKey: "AIzaSyDp4nIGK7UfrsAHPWICFRs4sckIST9CIJY",
         authDomain: "train-card.firebaseapp.com",
